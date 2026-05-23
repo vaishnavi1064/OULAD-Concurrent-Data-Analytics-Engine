@@ -1,0 +1,43 @@
+# Build artifacts
+build/
+.gradle/
+out/
+target/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java specifics
+*.war
+*.nar
+*.ear
+*.ctxt
+hs_err_pid*
+.mtj.tmp/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large data files (GitHub rejects files over 100MB)
+data/studentVle.csv
+
+# Benchmark raw output runs (keep BENCHMARK.md, ignore raw timestamped runs)
+benchmarks/results-*.txt
+
+# AI tool artifacts
+.antigravity/
+.cursor/
+.windsurf/
+.aider/
+.copilot/
