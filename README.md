@@ -1,6 +1,6 @@
 # OULAD Concurrent Data Analytics Engine
 
-A multithreaded Java pipeline that aggregates 10.6 million rows of student-engagement data from the [Open University Learning Analytics Dataset](https://analyse.kmi.open.ac.uk/open_dataset) into per-course daily click summaries, then identifies high-activity days against a user-defined threshold.
+A multithreaded Java pipeline that aggregates 10.6 million rows of student-engagement data from the [Open University Learning Analytics Dataset]([https://analyse.kmi.open.ac.uk/open_dataset](https://analyse.kmi.open.ac.uk/#open-dataset)) into per-course daily click summaries, then identifies high-activity days against a user-defined threshold.
 
 I built this to dig into the producer-consumer pattern at real scale — not toy datasets — and to find out whether throwing threads at a problem actually helps when the work-per-item is tiny.
 
